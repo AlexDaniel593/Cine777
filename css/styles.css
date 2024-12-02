@@ -4,13 +4,28 @@
 
 
 header {
-    background-color: #345ca1;
+    background-color: #27496D;
     color: white;
     padding: 10px;
     text-align: center;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+}
+
+header h1 {
+    padding-left: 15px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon{
+    width: 40px;
+    rotate: -15deg;
+    color: #FF204E;
 }
 
 nav {
@@ -26,10 +41,8 @@ nav a {
     margin: 0px 10px;
 }
 
-
-
 footer {
-    background-color: #345ca1;
+    background-color: #27496D;
     color: white;
     padding: 10px;
     text-align: center;

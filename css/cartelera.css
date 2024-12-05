@@ -1,0 +1,27 @@
+.cartelera_tabla {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    border: 2px solid #004080; 
+}
+.cartelera_tabla thead {
+    background-color: #004080; 
+    color: white; 
+}
+
+.cartelera_tabla th, .cartelera_tabla td {
+    padding: 10px;
+    border: 1px solid #ddd; 
+}
+
+.cartelera_tabla img {
+    max-width: 150px;
+    border: 2px solid #004080; 
+}
+
+.cartelera_tabla img:hover{
+    transform: scale(1.2); 
+    transition: transform 0.3s ease;
+
+}

@@ -1,0 +1,67 @@
+.contenedorP1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+
+.contenedorFunciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 20px;
+}
+.funciones{
+    width: 30%;
+    text-align: center;    
+}
+
+.poster{
+    display: grid;
+    place-items: center;
+    width: 30%;
+    align-items: center;
+
+}
+.sipnosis{
+    width: 40%;
+    text-align: justify;
+}
+ body:has(#masAntiguo:focus) .contenedorFunciones{
+    flex-direction: column-reverse;
+ }
+ body:has(#masReciente:focus) .contenedorFunciones{
+    flex-direction: column;
+ }
+.ordenamiento{
+    display: grid;
+    place-items: center;
+}
+ 
+.contenedorCartelera{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#masReciente, #masAntiguo{
+    border-radius: 10px;
+    width: 140px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#poster1:hover{
+    transform: scale(1.06);
+    transition: transform 0.3s ease;
+}
+.contenedorP1:has(#poster1:hover) .disponible{
+    color: red;
+}
+.contenedorP1:has(#poster1:hover) .NoDisponible{
+    color: green;
+}

@@ -34,10 +34,8 @@ header h1 {
 }
 
 nav {
-    background-color: transparent;
     color: #FF204E;
     text-align: left;
-    padding-right: 50px;
 }
 
 nav a {
@@ -48,7 +46,7 @@ nav a {
     font-style: normal;
     color: #FF204E;
     margin-left: 30px;
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease;
 }
@@ -57,8 +55,6 @@ nav a {
 nav a:hover {
     color: white;
 }
-
-
 
 footer {
     background: rgb(20, 40, 80);

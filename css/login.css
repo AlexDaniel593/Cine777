@@ -1,12 +1,13 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'montserrat', sans-serif;
+body {
+    background-image: url("../img/movie-background-collage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .main-container {
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .container {
@@ -19,6 +20,7 @@
     box-shadow: 0 4px 6px rgb(0, 0, 0, 0, 1);
     border-radius: 10px;
     border: 1px solid #fff;
+    
 }
 
 .container:before {

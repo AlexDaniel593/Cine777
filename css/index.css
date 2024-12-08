@@ -96,11 +96,51 @@ body {
     width: 100%;
 }
 
-.cine {
+.titulo {
     font-family: "Jaro", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 100px;
     color: #FF204E;
+    margin-bottom: -20px;
 }
+
+.subtitulo {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 15px;
+    margin-top: 0;
+    color: white;
+}
+
+.descripcion {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 0;
+    color: white;
+}
+  
+.buttons button {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #FF204E;
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: all 0.5s ease;
+}
+
+.buttons button:hover {
+    background-color: white; 
+    color: #FF204E;
+}
+
+

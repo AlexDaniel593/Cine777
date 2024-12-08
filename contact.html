@@ -40,53 +40,45 @@
     <div class="form-container">
         <h1 class="titulo">Escríbenos</h1>
         <form class="contact-form">
-            <fieldset>
+            <div class="datos-personales">
                 <p class="subtitulo">Datos Personales</p>
-                <div class="r">
-                    <div class="field">
-                        <label for="nombres">Nombres</label>
-                        <input type="text" id="nombres" name="nombres" required>
+                <div class="nombres">
+                    <div class="columna">
+                        <label for="nombres"> <strong>Nombres</strong></label>
+                        <input type="text" id="nombres" name="nombres" placeholder="Kevin Fernanado">
                     </div>
-                    <div class="field">
-                        <label for="apellidos">Apellidos</label>
-                        <input type="text" id="apellidos" name="apellidos" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="field">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="field">
-                        <label for="telefono">Teléfono</label>
-                        <input type="tel" id="telefono" name="telefono">
+                    <div class="columna">
+                        <label for="apellidos"><strong>Apellidos</strong></label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Amaguaña Casa">
                     </div>
                 </div>
-                <div class="field">
-                    <label for="ciudad">Ciudad</label>
+                <div class="email-telefono">
+                    <div class="columna">
+                        <label for="email"><strong>E-mail</strong></label>
+                        <input type="email" id="email" name="email" placeholder="kfamaguana@espe.edu.ec">
+                    </div>
+                    <div class="columna">
+                        <label for="telefono"><strong>Teléfono</strong></label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="0993671805">
+                    </div>
+                </div>
+                <div class="columna">
+                    <label for="ciudad"><strong>Ciudad</strong></label>
                     <select id="ciudad" name="ciudad">
                         <option value="Quito">Quito</option>
                         <option value="Guayaquil">Guayaquil</option>
                         <option value="Cuenca">Cuenca</option>
                     </select>
                 </div>
-            </fieldset>
+            </div>
 
-            <fieldset>
+            <div class="comentario">
                 <p class="subtitulo">Escribe aquí tus comentarios</p>
-                <div class="field">
-                    <label for="supercines">¿Qué Supercines visitaste hoy?</label>
-                    <select id="supercines" name="supercines">
-                        <option value="San Luis">San Luis</option>
-                        <option value="Cumbayá">Cumbayá</option>
-                        <option value="Quicentro">Quicentro</option>
-                    </select>
+                <div class="columna">
+                    <label for="comentarios"><strong>Comentarios</strong></label>
+                    <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aqui.."></textarea>
                 </div>
-                <div class="field">
-                    <label for="comentarios">Comentarios</label>
-                    <textarea id="comentarios" name="comentarios" rows="4"></textarea>
-                </div>
-            </fieldset>
+            </div>
 
             <div class="buttons">
                 <button type="submit">Enviar</button>

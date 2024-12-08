@@ -1,9 +1,10 @@
-body{
-    background: rgb(54,81,204);
-background: radial-gradient(circle, rgba(54,81,204,1) 0%, rgba(31,22,167,1) 0%, rgba(0,0,0,1) 100%, rgba(222,46,70,1) 100%, rgba(69,186,58,1) 100%, rgba(52,59,51,1) 100%, rgba(68,233,53,1) 100%, rgba(68,233,53,1) 175%, rgba(68,233,53,1) 175%);
+body {
+    background: rgb(54, 81, 204);
+    background: radial-gradient(circle, rgba(54, 81, 204, 1) 0%, rgba(31, 22, 167, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(222, 46, 70, 1) 100%, rgba(69, 186, 58, 1) 100%, rgba(52, 59, 51, 1) 100%, rgba(68, 233, 53, 1) 100%, rgba(68, 233, 53, 1) 175%, rgba(68, 233, 53, 1) 175%);
 }
-.contenedorP1{
-    
+
+.contenedorP1 {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,10 +14,10 @@ background: radial-gradient(circle, rgba(54,81,204,1) 0%, rgba(31,22,167,1) 0%, 
     border-radius: 40px;
     border: 8px solid #FF204E;
     background-color: rgba(179, 166, 166, 0.973);
-    
+
 }
 
-.contenedorFunciones{
+.contenedorFunciones {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,50 +27,63 @@ background: radial-gradient(circle, rgba(54,81,204,1) 0%, rgba(31,22,167,1) 0%, 
     gap: 30px;
     height: 100%;
 }
-.funciones{
+
+.funciones {
     width: 30%;
-    text-align: center;    
+    text-align: center;
 }
 
-.poster{
+.poster {
     display: grid;
     place-items: center;
     width: 30%;
     align-items: center;
 
 }
-.sipnosis{
+
+.sipnosis {
     width: 40%;
     text-align: justify;
 }
-#poster1 , #poster2 , #poster3,#poster4{
+
+#poster1,
+#poster2,
+#poster3,
+#poster4 {
     margin-top: 14px;
     margin-bottom: 14px;
 }
- body:has(#masAntiguo:focus) .contenedorFunciones{
+
+body:has(#masAntiguo:focus) .contenedorFunciones {
     flex-direction: column-reverse;
- }
- body:has(#masReciente:focus) .contenedorFunciones{
+}
+
+body:has(#masReciente:focus) .contenedorFunciones {
     flex-direction: column;
- }
- .contenedorP1:has(#poster1:hover) {
-    background-color:#fafafa; 
 }
+
+.contenedorP1:has(#poster1:hover) {
+    background-color: #fafafa;
+}
+
 .contenedorP1:has(#poster2:hover) {
-    background-color:#fafafa; 
+    background-color: #fafafa;
 }
+
 .contenedorP1:has(#poster3:hover) {
-    background-color:#fafafa; 
+    background-color: #fafafa;
 }
+
 .contenedorP1:has(#poster4:hover) {
-    background-color:#fafafa; 
+    background-color: #fafafa;
 }
-.ordenamiento{
+
+.ordenamiento {
     display: grid;
     place-items: center;
 }
- 
-.contenedorCartelera{
+
+.contenedorCartelera {
     font-size: larger;
     display: flex;
     flex-direction: row-reverse;
@@ -78,7 +92,8 @@ background: radial-gradient(circle, rgba(54,81,204,1) 0%, rgba(31,22,167,1) 0%, 
     background-color: rgb(23, 6, 121);
 }
 
-#masReciente, #masAntiguo{
+#masReciente,
+#masAntiguo {
     font-size: 16px;
     border-radius: 10px;
     width: 160px;
@@ -86,55 +101,68 @@ background: radial-gradient(circle, rgba(54,81,204,1) 0%, rgba(31,22,167,1) 0%, 
     cursor: pointer;
     border: 2.5px solid #FF204E;
 }
-#masReciente:hover, #masAntiguo:hover{
+
+#masReciente:hover,
+#masAntiguo:hover {
     transform: scale(1.25);
     transition: transform 0.2s ease;
 }
-#poster1:hover{
+
+#poster1:hover {
     transform: scale(1.06);
     transition: transform 0.3s ease;
 }
-.contenedorP1:has(#poster1:hover) .disponible{
+
+.contenedorP1:has(#poster1:hover) .disponible {
     color: red;
 }
-.contenedorP1:has(#poster1:hover) .NoDisponible{
+
+.contenedorP1:has(#poster1:hover) .NoDisponible {
     color: green;
 }
 
-#poster2:hover{
+#poster2:hover {
     transform: scale(1.06);
     transition: transform 0.3s ease;
 }
-.contenedorP1:has(#poster2:hover) .disponible{
+
+.contenedorP1:has(#poster2:hover) .disponible {
     color: red;
 }
-.contenedorP1:has(#poster2:hover) .NoDisponible{
+
+.contenedorP1:has(#poster2:hover) .NoDisponible {
     color: green;
 }
-#poster3:hover{
+
+#poster3:hover {
     transform: scale(1.065);
     transition: transform 0.3s ease;
 }
-.contenedorP:has(#poster3:hover) .disponible{
+
+.contenedorP:has(#poster3:hover) .disponible {
     color: red;
 }
-.contenedorP1:has(#poster3:hover) .NoDisponible{
-    color: green;
-}
-#poster4:hover{
-    transform: scale(1.06);
-    transition: transform 0.3s ease;
-}
-.contenedorP1:has(#poster4:hover) .disponible{
-    color: red;
-}
-.contenedorP1:has(#poster4:hover) .NoDisponible{
+
+.contenedorP1:has(#poster3:hover) .NoDisponible {
     color: green;
 }
 
-.cineFooter{
-    background: rgb(20,40,80);
-    background: linear-gradient(107deg, rgba(20,40,80,1) 0%, rgba(39,73,109,1) 49%, rgba(12,123,147,1) 100%);
+#poster4:hover {
+    transform: scale(1.06);
+    transition: transform 0.3s ease;
+}
+
+.contenedorP1:has(#poster4:hover) .disponible {
+    color: red;
+}
+
+.contenedorP1:has(#poster4:hover) .NoDisponible {
+    color: green;
+}
+
+.cineFooter {
+    background: rgb(20, 40, 80);
+    background: linear-gradient(107deg, rgba(20, 40, 80, 1) 0%, rgba(39, 73, 109, 1) 49%, rgba(12, 123, 147, 1) 100%);
     color: white;
     padding: 10px;
     text-align: center;

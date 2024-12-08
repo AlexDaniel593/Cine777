@@ -4,24 +4,24 @@
     font-family: 'montserrat', sans-serif;
 }
 
-.main-container{
+.main-container {
     justify-content: center;
     align-items: center;
 }
 
-.container{
+.container {
     margin: 30px;
     width: 300px;
     height: 350px;
     position: relative;
     z-index: 1;
     background: rgba(225, 225, 225, 0.1);
-    box-shadow: 0 4px 6px rgb(0, 0, 0, 0,1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0, 1);
     border-radius: 10px;
-    border: 1px solid  #fff;
+    border: 1px solid #fff;
 }
 
-.container:before{
+.container:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -31,25 +31,25 @@
     z-index: -1;
 }
 
-.login-box{
+.login-box {
     max-width: 250px;
     margin: 0 auto;
     text-align: center;
 }
 
-h2{
+h2 {
     color: #fff;
     margin-top: 30px;
     margin-bottom: -20px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
 
-input{
+input {
     padding: 10px;
     margin-top: 25px;
     border: none;
@@ -60,17 +60,17 @@ input{
     font-size: 13px;
 }
 
-input::placeholder{
+input::placeholder {
     color: #fff;
 }
 
-input:focus{
+input:focus {
     outline: none;
     border: 2px solid #5764a5;
     box-shadow: 0 0 5px rgba(87, 100, 165, 0.5);
 }
 
-.options{
+.options {
     display: flex;
     align-items: center;
     margin-top: 15px;
@@ -78,7 +78,7 @@ input:focus{
     color: white;
 }
 
-.options input{
+.options input {
     margin-right: 5px;
     margin-top: 0px;
 }
@@ -89,7 +89,7 @@ input:focus{
     margin-left: auto;
 }
 
-button{
+button {
     background: #fff;
     color: black;
     padding: 10px;
@@ -99,15 +99,14 @@ button{
     margin-top: 15px;
 }
 
-button:hover{
-    background:transparent;
+button:hover {
+    background: transparent;
     color: white;
     outline: 1px solid #fff;
 }
 
-p{
+p {
     font-size: 12px;
     color: #fff;
     margin-top: 15px;
 }
-

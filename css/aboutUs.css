@@ -30,7 +30,7 @@
     flex: 1 1 300px;
     background-color: transparent;
     color: white;
-    z-index: 1; /* Asegura que el contenido esté sobre el pseudo-elemento */
+    z-index: 0; /* Asegura que el contenido esté sobre el pseudo-elemento */
 }
 
 .caja::before {

@@ -142,7 +142,7 @@ body:has(#masReciente:focus) .contenedorFunciones {
     transition: transform 0.3s ease;
 }
 
-.contenedorP:has(#poster3:hover) .disponible {
+.contenedorP1:has(#poster3:hover) .disponible {
     color: red;
 }
 

@@ -36,3 +36,38 @@
     transform: scale(1.3);
     transition: transform 0.3s ease-in-out;
 }
+
+.contenedorIntegrantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.cajaD{
+    background-color: powderblue;
+    width: 30%;
+    margin-left: 20px;
+}
+.cajaK{
+    background-color: rebeccapurple;
+    width: 30%;
+
+}
+.cajaJ{
+    background-color: yellow;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.redes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}

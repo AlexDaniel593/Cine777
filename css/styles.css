@@ -63,3 +63,64 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que las columnas se ajusten en pantallas pequeñas */
+    margin: 0 auto; /* Centra el contenido del footer */
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1 1 30%; /* Cada columna ocupa un tercio del espacio disponible */
+    min-width: 200px; /* Asegura que las columnas no sean demasiado pequeñas */
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #FF204E; /* Color destacado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-column ul {
+    display: flex; /* Cambia el diseño de la lista a flexbox */
+    gap: 10px; /* Espacio entre los elementos */
+    padding-left: 130px;
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+.footer-column ul li {
+    margin: 0; /* Elimina cualquier margen */
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white; /* Color más claro para el texto del copyright */
+}
+
+
+.btn-contact {
+    font-family: "Jaro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #FF204E;
+    cursor: pointer;
+    margin: 30px;
+    padding: 10px 30px;
+    transition: 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: white;
+    color: #FF204E;
+}

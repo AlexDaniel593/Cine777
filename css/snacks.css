@@ -1,3 +1,8 @@
+body:has(.checkbox-dark-mode:checked) {
+    background-color: #333;
+}
+
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -84,4 +89,64 @@
     color: #4977db;
     font-weight: bold;
     padding: 0px 5px 0px 0px;
+}
+/* Contenedor para el modo oscuro */
+.dark-mode {
+    z-index: 3;
+    width: 120px; /* Incrementa el ancho para mejorar la usabilidad */
+    position: fixed;
+    top: 100px; /* Ajusta la posición del contenedor */
+    right: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3); /* Ajusta la opacidad del borde */
+    padding: 8px 16px; /* Ajustar la distancia entre los elementos */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Aumenta la sombra para mayor impacto visual */
+    background-color: #fff; /* Fondo blanco para mayor visibilidad */
+    display: flex;
+    align-items: center; /* Alinea verticalmente el checkbox y el label */
+    gap: 8px; /* Añade un pequeño margen entre los elementos */
+}
+
+/* Estilos para el checkbox */
+.checkbox-dark-mode {
+    display: none; /* Ocultar el checkbox por defecto */
+}
+
+/* Estilos para el label de la switch */
+.switch {
+    position: relative;
+    width: 60px; /* Incrementa el tamaño para mejorar la usabilidad */
+    height: 30px; /* Incrementa el tamaño para mejorar la usabilidad */
+    background-color: #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Tamaño de la fuente */
+    color: #333; /* Color de la letra en el switch */
+}
+
+/* Elipse de la switch */
+.switch::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -3px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+/* Comportamiento de la switch al estar activada */
+#dark-mode:checked + .switch {
+    background-color: #333; /* Cambia el color de fondo a oscuro */
+}
+
+#dark-mode:checked + .switch::before {
+    transform: translateX(30px) translateY(-50%);
 }

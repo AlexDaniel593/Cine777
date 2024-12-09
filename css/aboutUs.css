@@ -7,6 +7,13 @@
     margin-top: 50px;
     color: #000000;
     gap: 30px;
+    color: white;
+    width: auto;
+    margin-bottom: 20px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(123, 78, 226);
+    height: 80px;
 }
 
 
@@ -24,16 +31,20 @@
     background-color: powderblue;
     width: 30%;
     margin-left: 20px;
+
 }
 .cajaK{
     background-color: rebeccapurple;
     width: 30%;
 
+
 }
 .cajaJ{
-    background-color: rgb(102, 102, 96);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 30%;
     margin-right: 20px;
+    color: white;
 }
 
 .redes{

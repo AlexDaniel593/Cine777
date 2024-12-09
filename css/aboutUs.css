@@ -43,7 +43,11 @@
     gap: 24px;
     justify-content: center;
 }
-body{
-    background-color: #bbcde0;
+body {
+    background-image: url('../img/montanas-minimalista-arte-low-poly_3840x2160_xtrafondos.com.jpg'); /* Ajusta la ruta si es necesario */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
+
  

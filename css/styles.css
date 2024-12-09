@@ -115,7 +115,7 @@ footer p {
     color: white;
     background-color: #FF204E;
     cursor: pointer;
-    margin: 30px;
+    margin:0 auto;
     padding: 10px 30px;
     transition: 0.3s ease;
 }

@@ -6,14 +6,17 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-image: url('../img/montanas-minimalista-arte-low-poly_3840x2160_xtrafondos.com.jpg'); /* Ajusta la ruta si es necesario */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     color: #333;
 }
 
 .form-container {
     width: 600px;
     margin: 25px auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -25,7 +28,7 @@ body {
     font-size: 50px;
     color: #FF204E;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .subtitulo {
@@ -54,7 +57,7 @@ body {
 
 .columna input {
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px;
     width: 100%;

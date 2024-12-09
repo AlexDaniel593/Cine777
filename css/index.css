@@ -260,3 +260,89 @@
     background-color: white;
     color: #ffb820;
 }
+
+.aditional {
+    background-color: #142850;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    gap: 20px;
+    padding: 20px 100px;
+    color: white;
+}
+
+.aditional h2 {
+    font-family: "Jaro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #FF204E;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.animation-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.letter {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+
+.lamp {
+    position: absolute;
+    animation: fly-rocket 5s infinite linear;
+    transform-origin: center;
+    color: white;
+}
+
+@keyframes fly-rocket {
+    0% {
+        transform: translate(-300px, 50px) rotate(0deg);
+    }
+    50% {
+        transform: translate(100px, -50px) rotate(180deg);
+    }
+    80% {
+        transform: translate(-50px, 0px) rotate(315deg);
+    }
+    100% {
+        transform: translate(-50px, 0px) rotate(315deg);
+    }
+}
+
+
+
+.letter.i {
+   color: transparent;
+}
+
+
+.btn-app{
+    font-family: "Jaro", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #FF204E;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 5px 15px;
+    transition: 0.3s ease;
+}
+
+.btn-app:hover {
+    background-color: white;
+    color: #FF204E;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/register.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Yuji+Mai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        referrerpolicy="no-referrer" />
+
+    <title>Registrarse</title>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <img class="header-icon" src="./icons/clapperboard-solid.svg" alt="clapperboard">
+            <h1>CINE 777</h1>
+        </div>
+
+        <nav>
+            <a href="./index.html"> <i class="fa-solid fa-house nav-icon "></i> Inicio </a>
+            <a href="./funciones.html"><i class="fa-solid fa-film nav-icon"></i> Cartelera</a>
+            <a href="./snacks.html"><i class="fa-solid fa-utensils nav-icon"></i> Combos</a>
+            <a href="./aboutUs.html"> <i class="fa-solid fa-address-card nav-icon"></i> Sobre Nosotros</a>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h1 class="titulo">Registra tu Cuenta</h1>
+        <form class="register-form">
+            <div class="datos-personales">
+                <p class="subtitulo">Datos Personales</p>
+                <div class="columna">
+                    <label for="nombre"><strong><i class="fa-solid fa-user"></i> Nombres:</strong></label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="columna">
+                    <label for="usuario"><strong><i class="fa-solid fa-user"></i> Nombre de Usuario</strong></label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Nombre de Usuario" required>
+                </div>
+                <div class="columna">
+                    <label for="email"><strong><i class="fa-solid fa-envelope"></i> Correo Electrónico</strong></label>
+                    <input type="email" id="email" name="email" placeholder="tu_email@gmail.com" required>
+                </div>
+                <div class="columna">
+                    <label for="password"><strong><i class="fa-solid fa-lock"></i> Contraseña</strong></label>
+                    <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+                </div>
+                <div class="columna">
+                    <label for="confirmar-password"><strong><i class="fa-solid fa-lock"></i> Confirmar Contraseña</strong></label>
+                    <input type="password" id="confirmar-password" name="confirmar-password" placeholder="Repite tu contraseña" required>
+                </div>
+            </div>
+
+            <div class="terminos">
+                <p>Al registrarte, aceptas nuestros <a href="">Términos y Condiciones</a> y la <a href="#">Política de Privacidad</a></p>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Registrar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4><strong>Sobre Nosotros</strong></h4>
+                <p>Email: contacto@cine777.com</p>
+                <p>Teléfono: +1 234 567 890</p>
+            </div>
+            <div class="footer-column">
+                <h4><strong>Siguenos</strong></h4>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank">
+                            <img src="./icons/facebook.svg" alt="Facebook" width="30px">
+                        </a></li>
+                    <li><a href="https://www.whatsapp.com" target="_blank">
+                            <img src="./icons/whatsapp.svg" alt="WhatsApp" width="30px">
+                        </a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">
+                            <img src="./icons/instagram.svg" alt="Instagram" width="30px">
+                        </a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <a href="./contact.html">
+                    <button class="btn-contact">Contáctanos</button>
+                </a>
+            </div>
+        </div>
+        <p>© 2024 Cine 777</p>
+    </footer>
+</body>
+</html>

@@ -89,7 +89,7 @@ footer {
 .footer-column ul {
     display: flex; /* Cambia el diseño de la lista a flexbox */
     gap: 10px; /* Espacio entre los elementos */
-    padding-left: 130px;
+    padding-left: 200px;
     list-style: none; /* Elimina los puntos de la lista */
 }
 
